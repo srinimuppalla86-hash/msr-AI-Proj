@@ -61,11 +61,8 @@ export default function StepSetup({
   const [success, setSuccess] = useState('');
   
   const [testingJira, setTestingJira] = useState(false);
-  const [showJiraToken, setShowJiraToken] = useState(false);
-  
   const [testingLlm, setTestingLlm] = useState(false);
   const [llmTestResult, setLlmTestResult] = useState(null);
-  const [showLlmKey, setShowLlmKey] = useState(false);
 
   useEffect(() => {
     fetchConnections();
