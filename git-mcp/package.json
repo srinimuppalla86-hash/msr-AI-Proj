@@ -1,0 +1,12 @@
+{
+  "name": "git-mcp-server",
+  "version": "1.0.0",
+  "description": "Git MCP server for local repository interaction",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @modelcontextprotocol/server-git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server-git": "latest"
+  }
+}
